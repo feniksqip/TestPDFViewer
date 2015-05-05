@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844069DC1AF8C89500781CAE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844069DB1AF8C89500781CAE /* TableViewController.m */; };
 		84C275A71AF8C0A800A60F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C275A61AF8C0A800A60F70 /* main.m */; };
 		84C275AA1AF8C0A800A60F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C275A91AF8C0A800A60F70 /* AppDelegate.m */; };
-		84C275AD1AF8C0A800A60F70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C275AC1AF8C0A800A60F70 /* ViewController.m */; };
 		84C275B01AF8C0A800A60F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C275AE1AF8C0A800A60F70 /* Main.storyboard */; };
 		84C275B21AF8C0A800A60F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C275B11AF8C0A800A60F70 /* Images.xcassets */; };
 		84C275B51AF8C0A800A60F70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C275B31AF8C0A800A60F70 /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844069DA1AF8C89500781CAE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		844069DB1AF8C89500781CAE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		84C275A11AF8C0A800A60F70 /* TestPDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C275A51AF8C0A800A60F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C275A61AF8C0A800A60F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84C275A81AF8C0A800A60F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84C275A91AF8C0A800A60F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84C275AB1AF8C0A800A60F70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84C275AC1AF8C0A800A60F70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84C275AF1AF8C0A800A60F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C275B11AF8C0A800A60F70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84C275B41AF8C0A800A60F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,12 +83,12 @@
 			children = (
 				84C275A81AF8C0A800A60F70 /* AppDelegate.h */,
 				84C275A91AF8C0A800A60F70 /* AppDelegate.m */,
-				84C275AB1AF8C0A800A60F70 /* ViewController.h */,
-				84C275AC1AF8C0A800A60F70 /* ViewController.m */,
 				84C275AE1AF8C0A800A60F70 /* Main.storyboard */,
 				84C275B11AF8C0A800A60F70 /* Images.xcassets */,
 				84C275B31AF8C0A800A60F70 /* LaunchScreen.xib */,
 				84C275A41AF8C0A800A60F70 /* Supporting Files */,
+				844069DA1AF8C89500781CAE /* TableViewController.h */,
+				844069DB1AF8C89500781CAE /* TableViewController.m */,
 			);
 			path = TestPDFViewer;
 			sourceTree = "<group>";
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C275AD1AF8C0A800A60F70 /* ViewController.m in Sources */,
 				84C275AA1AF8C0A800A60F70 /* AppDelegate.m in Sources */,
+				844069DC1AF8C89500781CAE /* TableViewController.m in Sources */,
 				84C275A71AF8C0A800A60F70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +414,7 @@
 				84C275C61AF8C0A800A60F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84C275C71AF8C0A800A60F70 /* Build configuration list for PBXNativeTarget "TestPDFViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				84C275C91AF8C0A800A60F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
