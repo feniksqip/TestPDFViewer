@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		844069DC1AF8C89500781CAE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844069DB1AF8C89500781CAE /* TableViewController.m */; };
+		844069E61AF8C9FD00781CAE /* MJPPdfPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 844069DF1AF8C9FD00781CAE /* MJPPdfPage.m */; };
+		844069E71AF8C9FD00781CAE /* MJPPdfTiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844069E11AF8C9FD00781CAE /* MJPPdfTiledView.m */; };
+		844069E81AF8C9FD00781CAE /* MJPPdfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844069E31AF8C9FD00781CAE /* MJPPdfView.m */; };
+		844069E91AF8C9FD00781CAE /* MJPPdfViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 844069E51AF8C9FD00781CAE /* MJPPdfViewer.m */; };
+		844069EE1AF8CA1700781CAE /* A4-landscape.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 844069EB1AF8CA1700781CAE /* A4-landscape.pdf */; };
+		844069EF1AF8CA1700781CAE /* A4-portrait.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 844069EC1AF8CA1700781CAE /* A4-portrait.pdf */; };
+		844069F01AF8CA1700781CAE /* square.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 844069ED1AF8CA1700781CAE /* square.pdf */; };
 		84C275A71AF8C0A800A60F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C275A61AF8C0A800A60F70 /* main.m */; };
 		84C275AA1AF8C0A800A60F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C275A91AF8C0A800A60F70 /* AppDelegate.m */; };
 		84C275B01AF8C0A800A60F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C275AE1AF8C0A800A60F70 /* Main.storyboard */; };
@@ -29,6 +36,17 @@
 /* Begin PBXFileReference section */
 		844069DA1AF8C89500781CAE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		844069DB1AF8C89500781CAE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		844069DE1AF8C9FD00781CAE /* MJPPdfPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPPdfPage.h; sourceTree = "<group>"; };
+		844069DF1AF8C9FD00781CAE /* MJPPdfPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPPdfPage.m; sourceTree = "<group>"; };
+		844069E01AF8C9FD00781CAE /* MJPPdfTiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPPdfTiledView.h; sourceTree = "<group>"; };
+		844069E11AF8C9FD00781CAE /* MJPPdfTiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPPdfTiledView.m; sourceTree = "<group>"; };
+		844069E21AF8C9FD00781CAE /* MJPPdfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPPdfView.h; sourceTree = "<group>"; };
+		844069E31AF8C9FD00781CAE /* MJPPdfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPPdfView.m; sourceTree = "<group>"; };
+		844069E41AF8C9FD00781CAE /* MJPPdfViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPPdfViewer.h; sourceTree = "<group>"; };
+		844069E51AF8C9FD00781CAE /* MJPPdfViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPPdfViewer.m; sourceTree = "<group>"; };
+		844069EB1AF8CA1700781CAE /* A4-landscape.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "A4-landscape.pdf"; sourceTree = "<group>"; };
+		844069EC1AF8CA1700781CAE /* A4-portrait.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "A4-portrait.pdf"; sourceTree = "<group>"; };
+		844069ED1AF8CA1700781CAE /* square.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = square.pdf; sourceTree = "<group>"; };
 		84C275A11AF8C0A800A60F70 /* TestPDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C275A51AF8C0A800A60F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C275A61AF8C0A800A60F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +78,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844069DD1AF8C9DC00781CAE /* MJPPdfViewer */ = {
+			isa = PBXGroup;
+			children = (
+				844069DE1AF8C9FD00781CAE /* MJPPdfPage.h */,
+				844069DF1AF8C9FD00781CAE /* MJPPdfPage.m */,
+				844069E01AF8C9FD00781CAE /* MJPPdfTiledView.h */,
+				844069E11AF8C9FD00781CAE /* MJPPdfTiledView.m */,
+				844069E21AF8C9FD00781CAE /* MJPPdfView.h */,
+				844069E31AF8C9FD00781CAE /* MJPPdfView.m */,
+				844069E41AF8C9FD00781CAE /* MJPPdfViewer.h */,
+				844069E51AF8C9FD00781CAE /* MJPPdfViewer.m */,
+			);
+			name = MJPPdfViewer;
+			sourceTree = "<group>";
+		};
+		844069EA1AF8CA1700781CAE /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				844069EB1AF8CA1700781CAE /* A4-landscape.pdf */,
+				844069EC1AF8CA1700781CAE /* A4-portrait.pdf */,
+				844069ED1AF8CA1700781CAE /* square.pdf */,
+			);
+			path = PDFs;
+			sourceTree = "<group>";
+		};
 		84C275981AF8C0A800A60F70 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,7 @@
 		84C275A31AF8C0A800A60F70 /* TestPDFViewer */ = {
 			isa = PBXGroup;
 			children = (
+				844069DD1AF8C9DC00781CAE /* MJPPdfViewer */,
 				84C275A81AF8C0A800A60F70 /* AppDelegate.h */,
 				84C275A91AF8C0A800A60F70 /* AppDelegate.m */,
 				84C275AE1AF8C0A800A60F70 /* Main.storyboard */,
@@ -96,6 +140,7 @@
 		84C275A41AF8C0A800A60F70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				844069EA1AF8CA1700781CAE /* PDFs */,
 				84C275A51AF8C0A800A60F70 /* Info.plist */,
 				84C275A61AF8C0A800A60F70 /* main.m */,
 			);
@@ -200,8 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C275B01AF8C0A800A60F70 /* Main.storyboard in Resources */,
+				844069F01AF8CA1700781CAE /* square.pdf in Resources */,
+				844069EE1AF8CA1700781CAE /* A4-landscape.pdf in Resources */,
 				84C275B51AF8C0A800A60F70 /* LaunchScreen.xib in Resources */,
 				84C275B21AF8C0A800A60F70 /* Images.xcassets in Resources */,
+				844069EF1AF8CA1700781CAE /* A4-portrait.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C275AA1AF8C0A800A60F70 /* AppDelegate.m in Sources */,
+				844069E81AF8C9FD00781CAE /* MJPPdfView.m in Sources */,
+				844069E61AF8C9FD00781CAE /* MJPPdfPage.m in Sources */,
 				844069DC1AF8C89500781CAE /* TableViewController.m in Sources */,
+				844069E71AF8C9FD00781CAE /* MJPPdfTiledView.m in Sources */,
+				844069E91AF8C9FD00781CAE /* MJPPdfViewer.m in Sources */,
 				84C275A71AF8C0A800A60F70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
